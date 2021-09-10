@@ -54,10 +54,11 @@ body {
   color: #ffffff;
   border: 2px solid rgb(255, 118, 145);
   text-align: center;
+  display:flex;
   justify-content: center;
   align-items: center;
   cursor: grab;
-  margin: 5px;
+  margin: 5px; 
 }
 
 .message {
