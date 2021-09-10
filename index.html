@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Circles</title>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <div class="wrapper" id="wrapper" ondragover="allowContainerDrop(event)">
+      <div class="container">
+        <div class="main-circle" id="main_circle">
+          <div
+            id="container1"
+            ondragover="allowDrop(event)"
+            ondrop="drop(event)"
+            class="placeholder placeholder-1"
+          ></div>
+          <div
+            id="container2"
+            ondragover="allowDrop(event)"
+            ondrop="drop(event)"
+            class="placeholder placeholder-2"
+          ></div>
+          <div
+            id="container3"
+            ondragover="allowDrop(event)"
+            ondrop="drop(event)"
+            class="placeholder placeholder-3"
+          ></div>
+          <div
+            id="container4"
+            ondragover="allowDrop(event)"
+            ondrop="drop(event)"
+            class="placeholder placeholder-4"
+          ></div>
+          <div
+            id="container5"
+            ondragover="allowDrop(event)"
+            ondrop="drop(event)"
+            class="placeholder placeholder-5"
+          ></div>
+          <div
+            id="container6"
+            ondragover="allowDrop(event)"
+            ondrop="drop(event)"
+            class="placeholder placeholder-6"
+          ></div>
+          <div
+            id="container7"
+            ondragover="allowDrop(event)"
+            ondrop="drop(event)"
+            class="placeholder placeholder-7"
+          ></div>
+          <div
+            id="container8"
+            ondragover="allowDrop(event)"
+            ondrop="drop(event)"
+            class="placeholder placeholder-8"
+          ></div>
+          <div
+            id="container9"
+            ondragover="allowDrop(event)"
+            ondrop="drop(event)"
+            class="placeholder placeholder-9"
+          ></div>
+          <div
+            id="container10"
+            ondragover="allowDrop(event)"
+            ondrop="drop(event)"
+            class="placeholder placeholder-10"
+          ></div>
+        </div>
+      </div>
+      <div class="ball-box" id="ball-container">
+        <div
+          id="ball1"
+          draggable="true"
+          ondragstart="dragStart(event)"
+          ondrag="drag(event)"
+          class="placeholder-fill"
+        >
+          1
+        </div>
+        <div
+          id="ball2"
+          draggable="true"
+          ondragstart="dragStart(event)"
+          ondrag="drag(event)"
+          class="placeholder-fill"
+        >
+          2
+        </div>
+        <div
+          id="ball3"
+          draggable="true"
+          ondragstart="dragStart(event)"
+          ondrag="drag(event)"
+          class="placeholder-fill"
+        >
+          3
+        </div>
+        <div
+          id="ball4"
+          draggable="true"
+          ondragstart="dragStart(event)"
+          ondrag="drag(event)"
+          class="placeholder-fill"
+        >
+          4
+        </div>
+        <div
+          id="ball5"
+          draggable="true"
+          ondragstart="dragStart(event)"
+          ondrag="drag(event)"
+          class="placeholder-fill"
+        >
+          5
+        </div>
+        <div
+          id="ball6"
+          draggable="true"
+          ondragstart="dragStart(event)"
+          ondrag="drag(event)"
+          class="placeholder-fill"
+        >
+          6
+        </div>
+        <div
+          id="ball7"
+          draggable="true"
+          ondragstart="dragStart(event)"
+          ondrag="drag(event)"
+          class="placeholder-fill"
+        >
+          7
+        </div>
+        <div
+          id="ball8"
+          draggable="true"
+          ondragstart="dragStart(event)"
+          ondrag="drag(event)"
+          class="placeholder-fill"
+        >
+          8
+        </div>
+        <div
+          id="ball9"
+          draggable="true"
+          ondragstart="dragStart(event)"
+          ondrag="drag(event)"
+          class="placeholder-fill"
+        >
+          9
+        </div>
+        <div
+          id="ball10"
+          draggable="true"
+          ondragstart="dragStart(event)"
+          ondrag="drag(event)"
+          class="placeholder-fill"
+        >
+          10
+        </div>
+      </div>
+    </div>
+
+    <div class="btn-container">
+      <button onclick="checkSeq()">Check Arrangement</button>
+      <div>
+        <p class="message" id="message"></p>
+      </div>
+    </div>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

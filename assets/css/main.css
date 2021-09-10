@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  position: fixed;
+  background-color: rgb(226, 255, 240);
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-circle {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  background-color: rgba(64, 255, 255, 0);
+  border-radius: 50%;
+  border: 2px solid crimson;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.ball-box {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.placeholder {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: aliceblue;
+  border-radius: 50%;
+  border: 2px solid crimson;
+}
+
+.placeholder-fill {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(103, 184, 255);
+  border-radius: 50%;
+  font-size: 20px;
+  color: #ffffff;
+  border: 2px solid rgb(255, 118, 145);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  cursor: grab;
+  margin: 5px;
+}
+
+.message {
+  font-size: 20px;
+  color: darkred;
+}
+
+.placeholder-1 {
+  top: -4%;
+  left: 27%;
+}
+
+.placeholder-2 {
+  top: -4%;
+  right: 27%;
+}
+
+.placeholder-3 {
+  top: 15%;
+  right: 3%;
+}
+
+.placeholder-4 {
+  top: 45%;
+  right: -7%;
+}
+
+.placeholder-5 {
+  top: 73%;
+  right: 3%;
+}
+
+.placeholder-6 {
+  bottom: -4%;
+  right: 27%;
+}
+
+.placeholder-7 {
+  bottom: -4%;
+  left: 27%;
+}
+
+.placeholder-8 {
+  top: 73%;
+  left: 3%;
+}
+
+.placeholder-9 {
+  top: 45%;
+  left: -7%;
+}
+
+.placeholder-10 {
+  top: 15%;
+  left: 3%;
+}
+
+.placeholder .placeholder-fill {
+  position: relative;
+  bottom: 7px;
+  right: 7px;
+}
+
+.btn-container {
+  position: absolute;
+  top: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.btn-container button {
+  padding: 10px;
+  font-size: 18px;
+  background-color: cornflowerblue;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  transition: all 500ms;
+}
+
+.btn-container button:hover {
+  background-color: blue;
+  cursor: pointer;
+  transform: scale(1.02);
+}
