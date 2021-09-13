@@ -1,0 +1,192 @@
+body{
+    background-color: rgba(255, 228, 196, 0.384);
+}
+
+@keyframes rotateMain{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.main-circle{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(255, 83, 25, 0.521);
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: rotateMain 5s linear infinite;
+}
+
+.placeholder{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 83, 25, 0.521);
+    position: absolute;
+}
+
+/* #################################################### */
+
+@keyframes rotateplaceholder-1{
+    from{
+        transform: rotate(0deg) translateX(200px);
+    }
+    to{
+        transform: rotate(36deg) translateX(200px);
+    }
+}
+
+.placeholder-1{
+    animation: rotateplaceholder-1 3s linear forwards;
+}
+
+/* #################################################### */
+
+@keyframes rotateplaceholder-2{
+    from{
+        transform: rotate(0deg) translateX(200px);
+    }
+    to{
+        transform: rotate(72deg) translateX(200px);
+    }
+}
+
+.placeholder-2{
+    animation: rotateplaceholder-2 3s linear forwards;
+}
+
+/* #################################################### */
+
+@keyframes rotateplaceholder-3{
+    from{
+        transform: rotate(0deg) translateX(200px);
+    }
+    to{
+        transform: rotate(108deg) translateX(200px);
+    }
+}
+
+.placeholder-3{
+    animation: rotateplaceholder-3 3s linear forwards;
+}
+
+/* #################################################### */
+
+@keyframes rotateplaceholder-4{
+    from{
+        transform: rotate(0deg) translateX(200px);
+    }
+    to{
+        transform: rotate(144deg) translateX(200px);
+    }
+}
+
+.placeholder-4{
+    animation: rotateplaceholder-4 3s linear forwards;
+}
+
+/* #################################################### */
+
+@keyframes rotateplaceholder-5{
+    from{
+        transform: rotate(0deg) translateX(200px);
+    }
+    to{
+        transform: rotate(180deg) translateX(200px);
+    }
+}
+
+.placeholder-5{
+    animation: rotateplaceholder-5 3s linear forwards;
+}
+
+/* #################################################### */
+
+@keyframes rotateplaceholder-6{
+    from{
+        transform: rotate(0deg) translateX(200px);
+    }
+    to{
+        transform: rotate(216deg) translateX(200px);
+    }
+}
+
+.placeholder-6{
+    animation: rotateplaceholder-6 3s linear forwards;
+}
+
+/* #################################################### */
+
+@keyframes rotateplaceholder-7{
+    from{
+        transform: rotate(0deg) translateX(200px);
+    }
+    to{
+        transform: rotate(252deg) translateX(200px);
+    }
+}
+
+.placeholder-7{
+    animation: rotateplaceholder-7 3s linear forwards;
+}
+
+/* #################################################### */
+
+@keyframes rotateplaceholder-8{
+    from{
+        transform: rotate(0deg) translateX(200px);
+    }
+    to{
+        transform: rotate(288deg) translateX(200px);
+    }
+}
+
+.placeholder-8{
+    animation: rotateplaceholder-8 3s linear forwards;
+}
+
+/* #################################################### */
+
+@keyframes rotateplaceholder-9{
+    from{
+        transform: rotate(0deg) translateX(200px);
+    }
+    to{
+        transform: rotate(324deg) translateX(200px);
+    }
+}
+
+.placeholder-9{
+    animation: rotateplaceholder-9 3s linear forwards;
+}
+
+/* #################################################### */
+
+@keyframes rotateplaceholder-10{
+    from{
+        transform: rotate(0deg) translateX(200px);
+    }
+    to{
+        transform: rotate(360deg) translateX(200px);
+    }
+}
+
+.placeholder-10{
+    animation: rotateplaceholder-10 3s linear forwards;
+}
+
+

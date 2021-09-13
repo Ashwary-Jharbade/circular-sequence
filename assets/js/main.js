@@ -7,16 +7,12 @@ function checkSeq() {
   let obj = document.getElementById("main_circle");
   let count;
   let first;
-  let last;
+  let second;
   let firstobj = document.getElementById(obj.children[0].id);
-  let lastobj = document.getElementById(obj.children[9].id);
+  let secondobj = document.getElementById(obj.children[1].id);
 
   if (firstobj.hasChildNodes()) {
     first = Number(firstobj.children[0].id.substr(4));
-  }
-
-  if (lastobj.hasChildNodes()) {
-    last = Number(lastobj.children[0].id.substr(4));
   }
 
   for (let i = 1; i < 10; i++) {
@@ -35,8 +31,14 @@ function checkSeq() {
     }
   }
   first = Number(firstobj.children[0].id.substr(4));
+  second = Number(secondobj.children[0].id.substr(4));
+  count = first - second;
   message.innerHTML = "Clockwise arrangement";
-  if (first - last > 0) {
+  if (Math.abs(count) > 1) {
+    if (count < 0) {
+      message.innerHTML = "Anti-clockwise arrangement";
+    }
+  } else if (count > 0) {
     message.innerHTML = "Anti-clockwise arrangement";
   }
 }
